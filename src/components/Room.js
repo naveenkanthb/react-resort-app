@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 export default function Room({room}) {
     const { name, slug, images, price } = room;
-    console.log(images);
+    //
     return (
         <article className="room">
             <div className="img-container">
